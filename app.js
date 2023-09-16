@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/login", loginRouter);
-app.use("/api/logout", logoutRouter);
+// app.use("/api/logout", logoutRouter);
 app.use("/api/users", usersRouter);
 app.use("/api/posts", postsRouter);
 app.use("/api/authors", authorsRouter);
